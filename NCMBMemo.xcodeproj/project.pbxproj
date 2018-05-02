@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA694F28504C18B56FE652E /* Pods_NCMBMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261184FF4A9D05892A814F40 /* Pods_NCMBMemo.framework */; };
+		F9C8C571204DAB5A00A09DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8C570204DAB5A00A09DD3 /* AppDelegate.swift */; };
+		F9C8C576204DAB5A00A09DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C8C574204DAB5A00A09DD3 /* Main.storyboard */; };
+		F9C8C578204DAB5A00A09DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C8C577204DAB5A00A09DD3 /* Assets.xcassets */; };
+		F9C8C57B204DAB5A00A09DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C8C579204DAB5A00A09DD3 /* LaunchScreen.storyboard */; };
+		F9C8C583204DAD3D00A09DD3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8C582204DAD3D00A09DD3 /* ListViewController.swift */; };
+		F9C8C585204DAD4A00A09DD3 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8C584204DAD4A00A09DD3 /* AddMemoViewController.swift */; };
+		F9C8C587204DAD5A00A09DD3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8C586204DAD5A00A09DD3 /* DetailViewController.swift */; };
+		F9C8C58A204DBE6D00A09DD3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C8C588204DBE6D00A09DD3 /* TableViewCell.swift */; };
+		F9C8C58B204DBE6D00A09DD3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9C8C589204DBE6D00A09DD3 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		261184FF4A9D05892A814F40 /* Pods_NCMBMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCMBMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CDC4ADFB59CEE98CB9EA2BC /* Pods-NCMBMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBMemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.release.xcconfig"; sourceTree = "<group>"; };
+		788F4D06B2E6C95F3FE1510C /* Pods-NCMBMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCMBMemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C8C56D204DAB5A00A09DD3 /* NCMBMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCMBMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C8C570204DAB5A00A09DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9C8C575204DAB5A00A09DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9C8C577204DAB5A00A09DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9C8C57A204DAB5A00A09DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9C8C57C204DAB5A00A09DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C8C582204DAD3D00A09DD3 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		F9C8C584204DAD4A00A09DD3 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		F9C8C586204DAD5A00A09DD3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F9C8C588204DBE6D00A09DD3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F9C8C589204DBE6D00A09DD3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9C8C56A204DAB5A00A09DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA694F28504C18B56FE652E /* Pods_NCMBMemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F475348E67193EFE4E05033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				261184FF4A9D05892A814F40 /* Pods_NCMBMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78FCB1C98A0C594CD03BF2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				788F4D06B2E6C95F3FE1510C /* Pods-NCMBMemo.debug.xcconfig */,
+				5CDC4ADFB59CEE98CB9EA2BC /* Pods-NCMBMemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9C8C564204DAB5A00A09DD3 = {
+			isa = PBXGroup;
+			children = (
+				F9C8C56F204DAB5A00A09DD3 /* NCMBMemo */,
+				F9C8C56E204DAB5A00A09DD3 /* Products */,
+				78FCB1C98A0C594CD03BF2FA /* Pods */,
+				2F475348E67193EFE4E05033 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9C8C56E204DAB5A00A09DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8C56D204DAB5A00A09DD3 /* NCMBMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9C8C56F204DAB5A00A09DD3 /* NCMBMemo */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8C570204DAB5A00A09DD3 /* AppDelegate.swift */,
+				F9C8C582204DAD3D00A09DD3 /* ListViewController.swift */,
+				F9C8C586204DAD5A00A09DD3 /* DetailViewController.swift */,
+				F9C8C584204DAD4A00A09DD3 /* AddMemoViewController.swift */,
+				F9C8C574204DAB5A00A09DD3 /* Main.storyboard */,
+				F9C8C588204DBE6D00A09DD3 /* TableViewCell.swift */,
+				F9C8C589204DBE6D00A09DD3 /* TableViewCell.xib */,
+				F9C8C577204DAB5A00A09DD3 /* Assets.xcassets */,
+				F9C8C579204DAB5A00A09DD3 /* LaunchScreen.storyboard */,
+				F9C8C57C204DAB5A00A09DD3 /* Info.plist */,
+			);
+			path = NCMBMemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9C8C56C204DAB5A00A09DD3 /* NCMBMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9C8C57F204DAB5A00A09DD3 /* Build configuration list for PBXNativeTarget "NCMBMemo" */;
+			buildPhases = (
+				3019294206402CD9479CC90B /* [CP] Check Pods Manifest.lock */,
+				F9C8C569204DAB5A00A09DD3 /* Sources */,
+				F9C8C56A204DAB5A00A09DD3 /* Frameworks */,
+				F9C8C56B204DAB5A00A09DD3 /* Resources */,
+				49AABE2D8DB5FD39E7FE0256 /* [CP] Embed Pods Frameworks */,
+				BD2780F3CCF8F29577987BB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NCMBMemo;
+			productName = NCMBMemo;
+			productReference = F9C8C56D204DAB5A00A09DD3 /* NCMBMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9C8C565204DAB5A00A09DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GeekSalon;
+				TargetAttributes = {
+					F9C8C56C204DAB5A00A09DD3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9C8C568204DAB5A00A09DD3 /* Build configuration list for PBXProject "NCMBMemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9C8C564204DAB5A00A09DD3;
+			productRefGroup = F9C8C56E204DAB5A00A09DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9C8C56C204DAB5A00A09DD3 /* NCMBMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9C8C56B204DAB5A00A09DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C8C57B204DAB5A00A09DD3 /* LaunchScreen.storyboard in Resources */,
+				F9C8C58B204DBE6D00A09DD3 /* TableViewCell.xib in Resources */,
+				F9C8C578204DAB5A00A09DD3 /* Assets.xcassets in Resources */,
+				F9C8C576204DAB5A00A09DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3019294206402CD9479CC90B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCMBMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49AABE2D8DB5FD39E7FE0256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2780F3CCF8F29577987BB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9C8C569204DAB5A00A09DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C8C58A204DBE6D00A09DD3 /* TableViewCell.swift in Sources */,
+				F9C8C585204DAD4A00A09DD3 /* AddMemoViewController.swift in Sources */,
+				F9C8C583204DAD3D00A09DD3 /* ListViewController.swift in Sources */,
+				F9C8C571204DAB5A00A09DD3 /* AppDelegate.swift in Sources */,
+				F9C8C587204DAD5A00A09DD3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9C8C574204DAB5A00A09DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C8C575204DAB5A00A09DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9C8C579204DAB5A00A09DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C8C57A204DAB5A00A09DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9C8C57D204DAB5A00A09DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9C8C57E204DAB5A00A09DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9C8C580204DAB5A00A09DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788F4D06B2E6C95F3FE1510C /* Pods-NCMBMemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQE4ET95Y4;
+				INFOPLIST_FILE = NCMBMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo-nakano.net.NCMBMemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9C8C581204DAB5A00A09DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDC4ADFB59CEE98CB9EA2BC /* Pods-NCMBMemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQE4ET95Y4;
+				INFOPLIST_FILE = NCMBMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo-nakano.net.NCMBMemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9C8C568204DAB5A00A09DD3 /* Build configuration list for PBXProject "NCMBMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C8C57D204DAB5A00A09DD3 /* Debug */,
+				F9C8C57E204DAB5A00A09DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9C8C57F204DAB5A00A09DD3 /* Build configuration list for PBXNativeTarget "NCMBMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9C8C580204DAB5A00A09DD3 /* Debug */,
+				F9C8C581204DAB5A00A09DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9C8C565204DAB5A00A09DD3 /* Project object */;
+}
